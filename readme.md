@@ -1,2 +1,2 @@
 ### Учебник JavaScript
-[[0 Index]]
+[Index](0 Index.md)
