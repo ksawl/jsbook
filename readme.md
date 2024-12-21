@@ -1,2 +1,3 @@
 ### Учебник JavaScript
-[Index](0 Index.md)
+
+[Index](./0%20Index.md)
