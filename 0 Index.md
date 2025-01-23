@@ -49,8 +49,13 @@
 ### 2.3 ES6+ (современные возможности языка)
 
 -   Деструктуризация.
--   #### [2.3.2 Spread/rest операторы](2.3.2%20Spread_rest%20операторы.md)
+-   #### [2.3.2 Spread/rest операторы](./2.3.2%20Spread_rest%20операторы.md)
 -   Модули (import/export).
+
+### 2.4 Асинхронный JavaScript
+
+-   Основы работы с `setTimeout` и `setInterval`.
+-   #### [2.4.2 Работа с `Promises` и async/await.](./2.4.2%20Работа%20с%20Promises%20и%20async_await.md)
 
 ---
 
@@ -63,13 +68,6 @@
 -   Поиск и управление элементами (`getElementById`, `querySelector`).
 -   Работа с атрибутами и стилями.
 -   События (addEventListener).
-
-## Этап 4: Продвинутые темы
-
-### 4.1 Асинхронный JavaScript
-
--   Основы работы с `setTimeout` и `setInterval`.
--   Работа с `Promises` и async/await.
 
 ---
 
