@@ -217,13 +217,14 @@
 17. **Продвинутые HTML-теги**
     - Мета-теги: `<meta>`, `<link rel="icon">`.
     - Семантические теги
-        - `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>`
+        - `<header>`, `<footer>`, `<nav>`, `<section>`, `<article>`, `<figure>`, `<figcaption>`
     - Семантические теги для SEO
         - `<main>`, `<aside>`, `<time>`, `<mark>`
     - Основы работы с медиа
         - `<audio>`, `<video>`, `controls`, `autoplay`, `<iframe>`, `<embed>`, `<object>`
     - Атрибуты `data-*` и их использование
     - Основы работы с SVG
+    - HTML-сущности `&lt;`, `&gt;`...
 18. **Сложные селекторы CSS**
     - Селекторы атрибутов
     - Позиционирование
