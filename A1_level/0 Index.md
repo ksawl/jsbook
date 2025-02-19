@@ -41,25 +41,24 @@
 -   Единицы измерения и цветовые форматы
 -   Подключение шрифтов и основные свойства для текста
     -   Подключение шрифтов
-    -   Свойства `color`, `font-size`, `text-align`, `text-decoration`, `line-height`, `font-family`, `font-weight`, `letter-spacing`, `font`
+        -   `@font-face`, `Google Fonts`, `font-family`
+    -   Свойства шрифтов
+        -   `color`, `font-size`, `text-align`, `text-decoration`, `line-height`, `font-family`, `font-weight`, `letter-spacing`, `font`
 -   Базовая работа с фоновыми изображениями
     -   `background-color`, `background-image`, `background-size`, `background-repeat`, `background-position`, `background-attachment`, `background`
 
-### 1.3. **Основы верстки**
+### [1.3. **Основы верстки**](./1.3.%20Основы%20верстки.md)
 
 -   Основы блочной модели
     -   `width`, `height`, `margin`, `padding`, `border`
+    -   `box-sizing`
 -   Основы позиционирования
-    -   `display` (inline, block), `position` (static, relative)
--   Блочная модель (Box Model)
-    -   `display`, `float`, `clear`, `overflow`
--   Позиционирование
-    -   `static`, `relative`, `absolute`, `fixed`
--   Простые макеты с использованием `float` и `clear`
-
-### 1.4. **Проекты для закрепления**
-
--   Создать простую страницу "О себе" с использованием базовых тегов HTML и CSS.
+    -   `display` (inline, block, table)
+    -   `position` (static, relative, absolute, fixed)
+    -   `top`, `right`, `bottom`, `left`, `z-index`
+-   Введение в адаптивность
+    -   `float`, `clear`, `overflow`
+    -   Простые макеты с использованием `float` и `clear`
 
 ---
 

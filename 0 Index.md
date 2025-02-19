@@ -109,6 +109,7 @@
 19. **Введение в CSS**
     - Подключение CSS к HTML (встроенные стили, `<style>`, внешний файл `.css`)
     - Базовые селекторы (`*`, `tag`, `.class`, `#id`)
+    - Работа со шрифтами (`@font-face`, `Google Fonts`, `font-family`)
     - Основные свойства для текста
         - `color`, `font-size`, `text-align`, `text-decoration`, `line-height`, `font-family`, `font-weight`, `letter-spacing`
     - Базовая работа с фоновыми изображениями
@@ -117,6 +118,7 @@
         - `width`, `height`, `margin`, `padding`, `border`
     - Основы позиционирования
         - `display` (inline, block), `position` (static, relative)
+        - `position`, `top`, `right`, `bottom`, `left`.
     - Основные стили (цвета, шрифты, размеры)
     - Каскадность и наследование
 20. **Базовая верстка:**
@@ -229,14 +231,16 @@
     - Сложные селекторы
         - cелекторы атрибутов `[attr]`
         - комбинаторы `,`, ` `, `+`. `>`, `~`
-    - Позиционирование
-        - `position`, `top`, `right`, `bottom`, `left`.
     - Расширенные селекторы
         - `nth-child`, `nth-of-type`, `first-child`, `last-child`
     - Псевдоклассы и псевдоэлементы
         - `hover`, `focus`, `before`, `after`
-    - Работа со шрифтами (`@font-face`, `Google Fonts`, `font-family`)
-    - Границы и тени (`border-radius`, `box-shadow`, `text-shadow`)
+    - Адаптивные размеры блока
+        - `max-width`, `min-width`, `max-height`, `min-height`
+        - `max-content`, `min-content`, `fit-content`
+    - Границы и тени
+        - `border-radius`, `border-collapse`, `border-spacing`
+        - `box-shadow`, `text-shadow`
     - Градиенты (`linear-gradient`, `radial-gradient`)
     - Flexbox
         - `display: flex`, `flex-direction`, `justify-content`, `align-items`, `flex-grow`, `flex-shrink`.
