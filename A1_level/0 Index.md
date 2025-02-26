@@ -36,13 +36,13 @@
 -   Наследование (inheritance)
     -   `inherit`, `initial`, `unset`
 -   Правила нейминга идентификатора
-    -   Допустимые символы и структура идентификатора
-    -   Практические рекомендации по неймингу
+    -   допустимые символы и структура идентификатора
+    -   практические рекомендации по неймингу
 -   Единицы измерения и цветовые форматы
 -   Подключение шрифтов и основные свойства для текста
-    -   Подключение шрифтов
+    -   подключение шрифтов
         -   `@font-face`, `Google Fonts`, `font-family`
-    -   Свойства шрифтов
+    -   свойства шрифтов
         -   `color`, `font-size`, `text-align`, `text-decoration`, `line-height`, `font-family`, `font-weight`, `letter-spacing`, `font`
 -   Базовая работа с фоновыми изображениями
     -   `background-color`, `background-image`, `background-size`, `background-repeat`, `background-position`, `background-attachment`, `background`
@@ -58,20 +58,25 @@
     -   `top`, `right`, `bottom`, `left`, `z-index`
 -   Введение в адаптивность
     -   `float`, `clear`, `overflow`
-    -   Простые макеты с использованием `float` и `clear`
+    -   простые макеты с использованием `float` и `clear`
 
 ---
 
 ## 2. **Основы JavaScript**
 
-### 2.1. **Что такое JavaScript**
+### [2.1. **Что такое JavaScript**](./2.1.%20Что%20такое%20JavaScript.md)
 
--   Что такое JavaScript
--   Подключение JavaScript к HTML (`<script>`)
+-   Стандарт ECMAScript (ES)
+    -   история ECMAScript
+    -   работа с современными стандартами
+-   Подключение JavaScript к HTML
+    -   внешний JavaScript
+    -   атрибуты `<script>`
 
 ### 2.2. **Переменные и типы данных**
 
 -   Переменные: `let`, `const`, `var`
+-   Строгий режим `strict mode`
 -   Область видимости и Hoisting
 -   Типы данных: числа, строки, булевы значения, `null`, `undefined`
 -   Оператор `typeof`

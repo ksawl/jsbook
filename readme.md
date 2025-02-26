@@ -48,7 +48,7 @@
 
 ## 2. **Основы JavaScript**
 
-### 2.1. **Что такое JavaScript**
+### [2.1. **Что такое JavaScript**](./A1_level/2.1.%20Что%20такое%20JavaScript.md)
 
 -   Что такое JavaScript
 -   Подключение JavaScript к HTML
