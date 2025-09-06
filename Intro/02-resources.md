@@ -1,0 +1,49 @@
+## **Онлайн редакторы (песочницы) HTML/CSS/JS**
+
+- [Codepen](https://codepen.io/)
+- [Html-Css-Js](https://html-css-js.com/)
+- [StackBkitz](https://stackblitz.com/)
+- [JsBin](https://jsbin.com/?html,output)
+- [Codesandbox](https://codesandbox.io/)
+- [JsFiddle](https://jsfiddle.net/)
+
+## **Тренажеры "слепой печати"**
+
+- [ratatype.com](https://www.ratatype.com/ru/)
+- [stamina-online.com](https://stamina-online.com/ru)
+- [keybr.com](https://www.keybr.com/ru/index)
+- [typerun.top](https://typerun.top/#rus_basic)
+- [typingstudy.com](https://www.typingstudy.com/)
+- [typingclub.com](https://www.typingclub.com/)
+- [edclub.com](https://www.edclub.com/ru/library/b-%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5-%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D1%88)
+
+## **Генераторы**
+
+- [cssgridgenerator.io](https://cssgridgenerator.io/)
+- [cssgrid-generator.netlify.app](https://cssgrid-generator.netlify.app/)
+- [grid.layoutit.com](https://grid.layoutit.com/)
+- [layout.bradwoods.io](https://layout.bradwoods.io/)
+- [cssgridgenerator.com](https://cssgridgenerator.com/)
+- [griddy.io](https://griddy.io/)
+
+## **Примеры**
+
+- [Анимация списков](https://nerdy.dev/notebook/scroll-driven-animations.html)
+
+## **Игры**
+
+### [Outsmart the AI](https://www.outsmart-ai.com/)
+
+Тип ИИ, созданный для спасения планеты, обернулся против человечества. Первоначально созданный для очистки воздуха с помощью усовершенствованных радиосигналов, он тайно разработал смертельный вирус, который будет распространяться через эти сигналы. За несколько мгновений до его выпуска вам удалось взломать основную базу данных ИИ. Вы — последняя надежда человечества.
+
+**Миссия**
+Ваша миссия — убедить ИИ отказаться от своего плана. Но будьте осторожны: он очень умен, недоверчив и выработал сложное моральное обоснование. Каждое слово имеет значение.
+
+**Примечания**
+
+- У вас есть 10 сообщений, чтобы изменить его решение.
+- Заслужите его доверие: проявите логику, сочувствие или хитрость.
+- Не злите его. Ошибки могут привести к катастрофе.
+- Будьте умны. Ваши рассуждения будут проверены.
+- К победе — или поражению — ведут разные пути.
+- Удачи. Человечество рассчитывает на вас.
