@@ -11,6 +11,8 @@
 
 JavaScript, JScript (Microsoft), и ActionScript (Adobe) — реализации ECMAScript.
 
+---
+
 ## |1| **История ECMAScript**
 
 | **Версия** | **Год** | **Ключевые особенности**                                                                                 |
