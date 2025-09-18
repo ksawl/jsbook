@@ -1,7 +1,13 @@
-# **2.1.3 Основные методы массивов**
+# **Методы массивов**
 
-> [Index](./0%20Index.md)
-> || [2.1 Массивы](./2.1%20Массивы.md)
+Полный справочник по основным методам массивов в JavaScript. Этот материал охватывает все ключевые методы для работы с массивами: добавление и удаление элементов, объединение и разделение, поиск и проверка, сортировка и преобразование.
+
+---
+
+- [🏠 Главная](../readme.md)
+- [📚 Все уровни](../levels/index.md)
+- [📖 Справочники](./index.md)
+- [🔧 Введение](../Intro/index.md)
 
 ---
 
@@ -20,8 +26,8 @@ console.log(arr); // [1, 2, 3, 4]
 arr.push(5, 6); // Добавляем 5 и 6 в конец
 console.log(arr); // [1, 2, 3, 4, 5, 6]
 
-const fruits = ['apple', 'banana'];
-const newLength = fruits.push('orange', 'mango');
+const fruits = ["apple", "banana"];
+const newLength = fruits.push("orange", "mango");
 console.log(fruits); // Вывод: ["apple", "banana", "orange", "mango"]
 console.log(newLength); // Вывод: 4
 ```
@@ -38,7 +44,7 @@ const lastElement = arr.pop(); // Удаляем 3
 console.log(arr); // [1, 2]
 console.log(lastElement); // 3
 
-const fruits = ['apple', 'banana', 'orange'];
+const fruits = ["apple", "banana", "orange"];
 const removedElement = fruits.pop();
 console.log(fruits); // Вывод: ["apple", "banana"]
 console.log(removedElement); // Вывод: "orange"
@@ -57,8 +63,8 @@ console.log(arr); // [1, 2, 3]
 arr.unshift(0, -1); // Добавляем 0 и -1 в начало
 console.log(arr); // [-1, 0, 1, 2, 3]
 
-const fruits = ['banana', 'orange'];
-const newLength = fruits.unshift('apple', 'mango');
+const fruits = ["banana", "orange"];
+const newLength = fruits.unshift("apple", "mango");
 console.log(fruits); // Вывод: ["apple", "mango", "banana", "orange"]
 console.log(newLength); // Вывод: 4
 ```
@@ -75,7 +81,7 @@ const firstElement = arr.shift(); // Удаляем 1
 console.log(arr); // [2, 3]
 console.log(firstElement); // 1
 
-const fruits = ['apple', 'banana', 'orange'];
+const fruits = ["apple", "banana", "orange"];
 const removedElement = fruits.shift();
 console.log(fruits); // Вывод: ["banana", "orange"]
 console.log(removedElement); // Вывод: "apple"
@@ -97,8 +103,8 @@ const arr2 = [3, 4];
 const combined = arr1.concat(arr2);
 console.log(combined); // [1, 2, 3, 4]
 
-const array1 = ['a', 'b'];
-const array2 = ['c', 'd'];
+const array1 = ["a", "b"];
+const array2 = ["c", "d"];
 const array3 = array1.concat(array2);
 console.log(array3); // Вывод: ["a", "b", "c", "d"]
 ```
@@ -114,7 +120,7 @@ const arr = [1, 2, 3, 4, 5];
 const subArray = arr.slice(1, 4); // Индексы 1, 2, 3
 console.log(subArray); // [2, 3, 4]
 
-const fruits = ['apple', 'banana', 'orange', 'mango'];
+const fruits = ["apple", "banana", "orange", "mango"];
 const citrus = fruits.slice(1, 3);
 console.log(citrus); // Вывод: ["banana", "orange"]
 ```
@@ -133,13 +139,13 @@ console.log(arr); // [1, 2, 4, 5]
 arr.splice(1, 0, 10); // Вставляем 10 на индекс 1
 console.log(arr); // [1, 10, 2, 4, 5]
 
-const fruits = ['apple', 'banana', 'orange'];
+const fruits = ["apple", "banana", "orange"];
 const removedElements = fruits.splice(1, 1);
 console.log(fruits); // Вывод: ["apple", "orange"]
 console.log(removedElements); // Вывод: ["banana"]
 
-const fruits = ['apple', 'banana', 'orange'];
-fruits.splice(1, 0, 'mango');
+const fruits = ["apple", "banana", "orange"];
+fruits.splice(1, 0, "mango");
 console.log(fruits); // Вывод: ["apple", "mango", "banana", "orange"]
 ```
 
@@ -158,8 +164,8 @@ const arr = [1, 2, 3, 2];
 console.log(arr.indexOf(2)); // 1
 console.log(arr.indexOf(4)); // -1
 
-const fruits = ['apple', 'banana', 'orange'];
-const index = fruits.indexOf('banana');
+const fruits = ["apple", "banana", "orange"];
+const index = fruits.indexOf("banana");
 console.log(index); // Вывод: 1
 ```
 
@@ -242,7 +248,7 @@ console.log(arr); // [3, 2, 1]
 
 ```javascript
 const arr = [1, 2, 3];
-const str = arr.join('-');
+const str = arr.join("-");
 console.log(str); // "1-2-3"
 ```
 
@@ -312,7 +318,7 @@ console.log(arr); // [4, 5, 3, 4, 5]
 
 ---
 
-## **Задачи**
+## **Практика**
 
 ### **1. Добавление и удаление элементов**
 
