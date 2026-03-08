@@ -18,47 +18,60 @@
 
 ### |1| **Объектно-ориентированное программирование и метапрограммирование**
 
-- Классы и наследование
-- Инкапсуляция
+- [**Метапрограммирование: Символы, Proxy и Reflect**](./1.1-meta-programming.md)
+  - Символы (`Symbol()`, `Symbol.for()`)
+  - Прокси (`Proxy`) и его ловушки
+  - Объект `Reflect`
+  - Динамическое создание классов (`new Function()`)
+- [**Продвинутое ООП: Инкапсуляция и паттерны классов**](./1.2-advanced-oop-classes.md)
+  - Глубокая инкапсуляция (`#private`, `WeakMap`)
+  - Паттерны Геттеров и Сеттеров
+  - Наследование vs Композиция
 - Декораторы классов и методов
-- Динамическое создание классов (`new Function()`)
-- Символы (`Symbol()`, `Symbol.for()`)
-- Прокси (`Proxy`) и его ловушки
-- Объект `Reflect`
 
 ### |2| **Итераторы, генераторы и асинхронные паттерны**
 
-- Итераторы (`Symbol.iterator`, `next()`)
-- Генераторы (`function*`, `yield`)
-- `Promise.all`, `Promise.race`, `Promise.allSettled`
-- Асинхронные итераторы (`for-await-of`)
+- [**Итераторы и генераторы**](./2.1-iterators-generators.md)
+  - Итераторы (`Symbol.iterator`, `next()`)
+  - Генераторы (`function*`, `yield`)
+  - `Promise.all`, `Promise.race`, `Promise.allSettled`
+  - Асинхронные итераторы (`for-await-of`)
 
 ### |3| **Продвинутые регулярные выражения**
 
-- Именованные группы
-- Просмотр вперед и назад
-- Флаг `s` (dotAll)
+- [**Продвинутые регулярные выражения**](./3.1-advanced-regexp.md)
+  - Именованные группы
+  - Просмотр вперед и назад (Lookahead/Lookbehind)
+  - Флаг `s` (dotAll), `y`, `d`
 
 ### |4| **Внутреннее устройство JavaScript и Node.js**
 
-- Внутреннее устройство движка JavaScript (V8, SpiderMonkey)
-- Event Loop и микрозадачи (`queueMicrotask()`)
-- Работа сборщика мусора (GC, `WeakRef()`, `FinalizationRegistry`)
-- Изучение Event Loop, LibUV и V8 в Node.js
-- Понимание работы потоков и асинхронности на низком уровне
+- [**Движок JavaScript: Под капотом V8**](./4.1-js-engine-v8.md)
+  - Архитектура V8 (Ignition, TurboFan)
+  - Скрытые классы и Inline Caching
+  - Работа сборщика мусора (GC)
+- [**Event Loop: Внутри событийного цикла**](./4.2-event-loop-internals.md)
+  - Микрозадачи и макрозадачи
+  - Фазы цикла в Node.js (LibUV)
+  - Оптимизация производительности
 - Написание нативных модулей на C++ (`node-addon-api`)
 
 ## **Разработка серверных приложений**
 
 ### |5| **Авторизация, аутентификация и безопасность**
 
-- JSON Web Tokens (JWT)
-- OAuth
-- Использование библиотек для аутентификации (например, `Passport.js`)
-- Использование HTTPS и SSL/TLS
-- Основы CORS и его настройка (`cors` middleware)
-- Безопасное хранение паролей (`bcrypt`, `argon2`)
-- Защита от атак SQL-инъекции, XSS, CSRF
+- [**Аутентификация: JWT и токены**](./5.1-auth-jwt.md)
+  - Структура JWT (header, payload, signature)
+  - Cookies vs LocalStorage
+  - Refresh Tokens
+- [**Основы безопасности: Хеширование, CORS и HTTPS**](./5.2-security-basics.md)
+  - Хеширование паролей (`bcrypt`, `argon2`)
+  - Настройка CORS
+  - Роль HTTPS и SSL/TLS
+- [**Распространенные атаки: XSS, CSRF и инъекции**](./5.3-common-attacks.md)
+  - Виды XSS и способы защиты
+  - CSRF: Токены и SameSite
+  - Инъекции: SQL и NoSQL
 
 ### |6| **Тестирование**
 
